@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="UserControls\ActorControl.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UserControls\ContractControl.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UserControls\ShowControl.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Windows\InformationAboutShowWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Windows\MenuForAll.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Windows\ProfileInformation.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Windows\ShowListActor.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Windows\ShowListContracts.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Windows\showListShows.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="UserControls\ActorControl.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UserControls\ContractControl.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UserControls\ShowControl.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Windows\Authorization.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Windows\InformationAboutShowWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Windows\MenuForAll.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Windows\ProfileInformation.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Windows\ShowListActor.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Windows\ShowListContracts.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Windows\showListShows.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>
